@@ -15,7 +15,7 @@ int bgetint() {
 	int s = -1;
 
 	while (s < 0) {
-		int s = scanf("%d", &res);
+		s = scanf("%d", &res);
 
 		if (s < 0 && bgetchar() == EOF) {
 			s = 1;
